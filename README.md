@@ -16,7 +16,7 @@ Your awestruct source should be placed in the lib/ directory. Once you push your
 
 Create OpenShift application
 
-    rhc app create $name ruby-1.9 --from-source=git://github.com/openshift-quickstart/awestruct-openshift-quickstart.git
+    rhc app create $name ruby-1.9 --from-code=git://github.com/openshift-quickstart/awestruct-openshift-quickstart.git
 
 enter the directory
 
